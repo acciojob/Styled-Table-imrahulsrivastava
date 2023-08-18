@@ -1,1 +1,30 @@
-/* your code */
+table,
+thead,
+tbody,
+th,
+tr,
+td {
+  height: 30px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+
+thead {
+  border: 1px solid rgba(33,90,142,255);
+  background-color: rgba(33,90,142,255);
+  color: white;
+}
+
+tbody {
+  border: 1px solid rgba(221,221,221,255);
+}
+
+tbody>tr:nth-child(even) {
+  background-color: rgba(221,221,221,255);
+}
